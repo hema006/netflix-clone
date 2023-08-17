@@ -1,0 +1,219 @@
+</DocType html>
+
+<html>
+
+<head>
+
+
+<title> Netflix clone </title>
+
+<style>
+body {
+
+font-family: Arial, sans-serif;
+
+margin:0; 
+Padding:0;
+
+}
+header {
+
+background-color: 0000,
+
+Padding:20px;
+
+}
+.logo{
+
+color:white 
+
+font-size 24px;
+
+font-weight:bold;
+
+
+}
+
+nav {
+
+margin-top: 10px;
+}
+
+
+nav u1{
+
+
+List-style-type: none;
+
+padding:0;
+
+
+margin:0;
+
+display: flex;
+
+
+}
+nav ul li {
+
+margin-right:20px;
+
+}
+nav ul li.last-child {
+ margin-right:0;
+}
+nav ul li a {
+Color: #fff;
+
+text-decoration: none;
+
+font-size: 18px;
+
+font-weight: bold;
+
+}
+.hero{
+
+background-image: url("https://cdn.mos.cms.futurecdn.net/rDJegQJaCyGaYysj2g5XWY.jpg");
+
+background-size: cover;
+
+background-position: center; 
+height: 500px;
+
+display: flex;
+
+align-items: Center;
+
+Justify-content: center;
+
+text-align: center;
+
+Color: #fff; 
+font-size:36px
+
+font-weight:bold;
+
+}
+ • Content {
+
+padding: 50px; 
+text-align: center"
+
+}
+
+h2{
+
+font-size: 32px;
+
+font-weight: bold; 
+margin-bottom: 20px;
+
+}
+
+p{
+
+font-size: 18px;
+
+line-height: 1.5;
+
+margin-bottom: 20px;
+
+}
+.cta{
+
+.margin-top: 20px;
+}
+.cta a{
+background-color: red;
+color: blue;
+
+Padding: 10px 20px;
+
+text-decoration: none; 
+font-size:20px;
+
+font-weight: bold;
+
+border-radius: 4px;
+
+}
+
+footer {
+
+background-color: #000;
+
+Padding: 20px;
+
+text-align: center; 
+Color: #fff;
+
+}
+
+footer p{
+
+margin:0;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo" >Netflix </div>
+
+<nav>
+<ul>
+
+<li><a href = "#">Home</a></li>
+
+<nav>
+<ul>
+
+<li> <a href="#">Home</a></li>
+ 
+
+<li> <a  href="#">TV shows </a></li>
+
+<li><a href="#"> movies </a> </li>
+
+
+<li><a href="#"> New and popular</a> </li>
+
+<li><a href="#"> my list </a> </li>
+</ul>
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div class="content"> 
+<h2>Unlimited movies, TV Show, and more. </h2>
+
+<p> watch anywhere. cancel
+
+anytime.</p> 
+<div class="cta">
+
+<a href="#">Get Started</a>
+
+ </div>
+</div>
+
+
+</section>
+
+<footer>
+
+<p>&copy; 2023 Netflix clone. All rights reserved.</p>
+
+</footer>
+
+</body>
+
+</html>
